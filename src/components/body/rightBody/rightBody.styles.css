@@ -1,0 +1,41 @@
+.rightBodyContainer {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rightBodyContainer h1 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.subText  {
+    margin-bottom: 7px;
+}
+
+.storeLinksContainer {
+    display: flex;
+    margin-top: 50px;
+}
+
+.storeImage {
+    margin-right: 20px;
+    height: 40pt;
+}
+
+@media screen and (max-width: 1200px) {
+    .rightBodyContainer h1 {
+        text-align: center;
+    }
+    .storeImage {
+        height: 40pt;
+    }
+    .rightBodyContainer {
+        width: 100%;
+        padding: 0 20px;
+        align-items: center;
+    }
+
+}

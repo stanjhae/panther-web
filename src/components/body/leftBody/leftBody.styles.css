@@ -1,0 +1,23 @@
+.leftBodyContainer {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.iosImage {
+    left: 700px;
+    position: relative;
+    height: 600px;
+}
+
+.androidImage {
+    height: 600px;
+}
+
+@media screen and (max-width: 1200px){
+    .leftBodyContainer {
+        display: none;
+    }
+}

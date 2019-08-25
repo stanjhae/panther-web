@@ -1,0 +1,29 @@
+.footerContainer {
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.copyright {
+    font-size: 17px;
+}
+
+.link {
+    font-size: 17px;
+    text-decoration: none;
+    color: #333333;
+}
+
+@media screen and (max-width: 800px) {
+    .footerContainer {
+        padding: 0 10px;
+    }
+
+    .link,
+    .copyright {
+        font-size: 12px;
+    }
+}
