@@ -17,9 +17,22 @@
     color: #333333;
 }
 
+.emailAddressContainer {
+    display: flex;
+    align-items: center;
+}
+
+.contactText {
+    margin-right: 20px;
+}
+
 @media screen and (max-width: 800px) {
     .footerContainer {
         padding: 0 10px;
+    }
+
+    .contactText {
+        display: none;
     }
 
     .link,

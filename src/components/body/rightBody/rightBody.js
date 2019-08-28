@@ -9,8 +9,8 @@ const RightBody = () => (
 		<p className='subText'>View upcoming events</p>
 		<p> keep up with the Nigerian community</p>
 		<div className='storeLinksContainer'>
-			<img alt="app store image" src={appStore} className='storeImage'/>
-			<img alt="play store image" src={googlePlay} className='storeImage'/>
+			<img alt="app store" src={appStore} className='storeImage'/>
+			<img alt="play store" src={googlePlay} className='storeImage'/>
 		</div>
 	</div>
 );
